@@ -32,14 +32,6 @@
     transition: background .4s;
 }
 
-#menu-h ul li a:hover {
-  color: rgb(0, 89, 255);
-  padding: 20px;
-  display: inline-block;
-  text-decoration: none;
-  transition: background .4s;
-}
-
 /* Fundo Site */
 body{
     background-color: rgb(255, 255, 255);
