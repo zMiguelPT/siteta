@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Menu */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+/* Fundo Site */
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Titulo/Banner */
+.image { 
+
+    position: relative; 
+
+    width: 100%; /* for IE 6 */
+}
+h2 { 
+position: absolute; 
+top: 45%; 
+left: 17%; 
+width: 100%; 
+}
+
+h2 span { 
+color: rgb(255, 255, 255); 
+font: bold 50px/50px URW Chancery L, cursive;
+letter-spacing: -1px;  
+background-color: rgba(0, 0, 0, 0.685);
+
+padding: 0px;
+}
+
+ /* Informações Rodapé */
+ #container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 85px;
+    right: 56%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption1 {
+    position: absolute;
+    top: 120px;
+    right: 57%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption2 {
+    position: absolute;
+    top: 155px;
+    right: 55%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container1 {
+    display: inline-block;
+    position: absolute;
+    right: 33%;
+    top: 2200px;
+  }
