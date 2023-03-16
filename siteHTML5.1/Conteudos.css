@@ -1,0 +1,165 @@
+/* Menu */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+  background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+  max-width: 500px;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: #FFF;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+/* Fundo Site */
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Titulo/Banner */
+.image { 
+
+    position: relative; 
+
+    width: 100%; /* for IE 6 */
+}
+h2 { 
+position: absolute; 
+top: 45%; 
+left: 17%; 
+width: 100%; 
+}
+
+h2 span { 
+color: rgb(255, 255, 255); 
+font: bold 50px/50px URW Chancery L, cursive;
+letter-spacing: -1px;  
+background-color: rgba(0, 0, 0, 0.685);
+
+padding: 0px;
+}
+/* Texto - Módulo Destaque */
+.textoDES{
+
+    font-family: "Papyrus";
+    font-size: 40px;
+    left: 1%;
+    width: 150%;
+    position: relative;
+    color: rgb(0, 132, 255);
+    
+  }
+
+.materiastitulos3 {
+    text-decoration: none;
+    padding: 0px;
+    width: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px  solid rgba(55, 0, 255, 0);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1500ms;
+  bottom: unset;
+  color:rgb(255, 255, 255);
+  
+  }
+  .materiastitulos3:hover {
+    text-decoration: none;
+    background-color: hwb(41 0% 0%);
+    color: #000000;
+   
+  }
+
+  /*conteudos das páginas*/
+#conteudos h4 {
+  
+    position: relative;
+    left: 5px;
+    color: rgb(59, 59, 59);
+    font: Arial;
+    text-align: justify;
+    text-indent: 25px;;
+    padding-left: 5%;
+    padding-right: 45%;
+  
+  }
+
+
+
+  .um {
+
+position: absolute;
+left: 40% ;
+width: 100% ; 
+top: 120% ;
+
+  }
+
+   /* Informações Rodapé */
+   #container {
+    display: inline-block;
+    position: absolute;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 85px;
+    right: 56%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container {
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+  }
+  
+  #container figcaption1 {
+    position: absolute;
+    top: 120px;
+    right: 57%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption2 {
+    position: absolute;
+    top: 155px;
+    right: 55%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+  #container1 {
+    display: inline-block;
+    position: absolute;
+    right: 33%;
+    top: 1300px;
+  }
