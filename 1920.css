@@ -1,45 +1,10 @@
   /* Configurações para Telemóvel, Tablet, Computador e Desktop */
-
-
-    @media only screen and (max-width: 375px){
-
-      
-
-    }
-
-
-    @media only screen and (max-width: 1024px){
-
-      
-
-    }
-
-
-    @media only screen and (max-width: 1440px){
-
-      
-
-    }
-
-
-    @media only screen and (max-width: 1680px){
-
-      
-
-    }
-
-
-    @media only screen and (max-width: 1920px){
+   @media only screen and (max-width: 1920px){
       
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 /* Menu */
-* {
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
 
 #menu-h{
   background-color: rgb(255, 255, 255);
@@ -238,7 +203,7 @@ table, td {
 /* Imagem Youtube */
 .imagem10{
   position: absolute;
-  top: 289%;
+  top: 282%;
   left: 0%;
 
 }
@@ -248,7 +213,7 @@ table, td {
 
   font-family: "Papyrus";
   font-size: 40px;
-  top: 295%;
+  top: 288%;
   left: 10%;
   width: 50%;
   
@@ -259,7 +224,7 @@ table, td {
 /* Vídeos */
 .imagem11 {
   position: absolute;
-  top: 300%;
+  top: 295%;
   left: 0%;
 }
 .imagem11 .seg8 {
@@ -276,7 +241,7 @@ table, td {
 
 .imagem12 {
   position: absolute;
-  top: 325%;
+  top: 318%;
   left: 0%;
 }
 .imagem12 .seg9 {
@@ -309,7 +274,7 @@ table, td {
 
     .texto12 {
         position: absolute;
-        top: 365%;
+        top: 358%;
         left: 10%;
         font-size: 20px;
       }
@@ -318,15 +283,8 @@ table, td {
         display: inline-block;
         position: absolute;
         right: 33%;
-        top: 365%;
+        top: 358%;
       }
-
-      
-
-    }
-
-
-    @media only screen and (max-width: 2560px){
 
       
 
